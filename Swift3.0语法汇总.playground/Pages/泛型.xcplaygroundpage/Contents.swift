@@ -138,4 +138,60 @@ struct IntStackStruct: Container {
     }
 }
 
+struct StackElement<Element>: Container {
+    // Stack<Element> 原始部分
+    var items = [Element]()
+    mutating func push(item: Element) {
+        items.append(item)
+    }
+    
+    mutating func pop() -> Element {
+        return items.removeLast()
+    }
+    
+    // Container 协议部分
+    mutating func append(item: Element) {
+        self.push(item: item)
+    }
+    
+    var count: Int {
+        return items.count
+    }
+    
+    subscript(i: Int) -> Element {
+        return items[i]
+    }
+}
+
+//: ----------
+// Where 子句
+// 可以在参数列表中通过  Where 子句为关联类型定义约束
+// 通过 where 子句要求一个关联类型遵从某个特定的协议，以及某个特定的类型参数和关联类型必须类型相同。
+func allItemMatch<C1: Container, C2: Container>(_ someContainer: C1, _ anotherContainer: C2) -> Bool
+    where C1.ItemType == C2.ItemType, C1.ItemType: Equatable{
+        // 检查两个容器含有相同数量的元素
+        if someContainer.count != anotherContainer.count {
+            return false
+        }
+        
+        // 检查每一对元素是否相等
+        for i in 0..<someContainer.count {
+            if someContainer[i] != anotherContainer[i] {
+                return false
+            }
+        }
+        
+        return true
+}
+
+// 上面的函数接收两个参数 someContainer, anotherContainer
+// 参数 someContainer 类型为 C1, 参数 anotherContainer 类型为 C2
+// C1, C2是容器的两个占位类型参数, 函数被调用时才能确定他们的具体类型
+// 这个函数的类型参数列表还定义了对两个类型参数的要求:
+// 1. C1必须符合 Container 协议( C1: Container)
+// 2. C2必须符合 Container 协议( C2: Container)
+// 3. C1的 ItemType 必须和 C2的 ItemType 类型相同( C1.ItemType == C2.ItemType)
+// 4. C1的 ItemType 必须符合Equatable 协议( C1.ItemTpye: Equatable)
+// C1, C2 的 ItemType 为关联类型, 所以可以通过 where 语句添加约束
+
 //: [Next](@next)
