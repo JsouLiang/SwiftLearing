@@ -3,6 +3,7 @@
     <pages>
         <page name='基础语法'/>
         <page name='闭包'/>
+        <page name='类和结构体'/>
         <page name='协议'/>
         <page name='泛型'/>
     </pages>
