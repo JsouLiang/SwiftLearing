@@ -7,6 +7,8 @@
         <page name='属性'/>
         <page name='方法'/>
         <page name='下标'/>
+        <page name='继承'/>
+        <page name='构造过程'/>
         <page name='协议'/>
         <page name='泛型'/>
     </pages>

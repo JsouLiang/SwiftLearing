@@ -460,5 +460,20 @@ extension Collection where Iterator.Element: TextRepresentable {
     
 }
 
+// Self-requirement
+// When you see Self in a protocol
+// it's a placeholder for the type that's going to
+// conform to that protocol, the model type
+protocol Ordered {
+    func precedes(other: Self) -> Bool
+}
+
+class Number : Ordered {
+    var value: Double = 0
+    func precedes(other: Number) -> Bool {
+        return self.value < (other).value
+    }
+}
+
 
 //: [Next](@next)
