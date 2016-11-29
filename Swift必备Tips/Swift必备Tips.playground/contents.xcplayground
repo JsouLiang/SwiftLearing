@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1. 柯里化'/>
+        <page name='3. Sequence'/>
+        <page name='4.多元组(Tuple)'/>
+        <page name='5.@autoclosure 和 ??'/>
+        <page name='6.@escaping'/>
+        <page name='7.Optional Chanining'/>
+        <page name='8.操作符'/>
+        <page name='9.func参数'/>
+        <page name='10.字面量表达'/>
+    </pages>
+</playground>
