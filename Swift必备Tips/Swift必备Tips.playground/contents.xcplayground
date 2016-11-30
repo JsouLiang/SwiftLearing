@@ -10,5 +10,13 @@
         <page name='8.操作符'/>
         <page name='9.func参数'/>
         <page name='10.字面量表达'/>
+        <page name='11.下标'/>
+        <page name='12.方法嵌套'/>
+        <page name='13.typealias'/>
+        <page name='14.associatedtype'/>
+        <page name='15.可变参数'/>
+        <page name='16.初始化方法顺序'/>
+        <page name='17.Designated，Convenience，Required'/>
+        <page name='18.初始化返回nil'/>
     </pages>
 </playground>
