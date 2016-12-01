@@ -18,5 +18,13 @@
         <page name='16.初始化方法顺序'/>
         <page name='17.Designated，Convenience，Required'/>
         <page name='18.初始化返回nil'/>
+        <page name='19.static和class'/>
+        <page name='20.多类型和容器'/>
+        <page name='21.default参数'/>
+        <page name='22.正则表达式'/>
+        <page name='23.模式匹配'/>
+        <page name='24....和..&lt;'/>
+        <page name='25.AnyClass，元类型和.self'/>
+        <page name='26.协议和类方法中的Self'/>
     </pages>
 </playground>
