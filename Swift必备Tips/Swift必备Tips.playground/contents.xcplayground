@@ -26,5 +26,16 @@
         <page name='24....和..&lt;'/>
         <page name='25.AnyClass，元类型和.self'/>
         <page name='26.协议和类方法中的Self'/>
+        <page name='27.动态类型和多方法'/>
+        <page name='28.属性观察'/>
+        <page name='29.final'/>
+        <page name='30.lazy修饰符和lazy方法'/>
+        <page name='31.Reflection和Mirror'/>
+        <page name='32.隐式解包Optional'/>
+        <page name='33.多重Optional'/>
+        <page name='34.Optional Map'/>
+        <page name='35.protocol extension'/>
+        <page name='36.where和模式匹配'/>
+        <page name='37.indirect和嵌套enum'/>
     </pages>
 </playground>
