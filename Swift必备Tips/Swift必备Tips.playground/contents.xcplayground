@@ -37,5 +37,19 @@
         <page name='35.protocol extension'/>
         <page name='36.where和模式匹配'/>
         <page name='37.indirect和嵌套enum'/>
+        <page name='38.Selector'/>
+        <page name='39.实例方法的调用'/>
+        <page name='40.单例'/>
+        <page name='41.条件编译'/>
+        <page name='43.@UIApplicationMain'/>
+        <page name='44.@objc和dynamic'/>
+        <page name='45.可选协议和协议扩展'/>
+        <page name='46.内存管理，weak，unowned'/>
+        <page name='47.@autoreleasepool'/>
+        <page name='48.值类型和引用类型'/>
+        <page name='49.String还是NSString'/>
+        <page name='50.UnsafePointer'/>
+        <page name='51.C指针内存管理'/>
+        <page name='52.COpaquePointer，C convention'/>
     </pages>
 </playground>
