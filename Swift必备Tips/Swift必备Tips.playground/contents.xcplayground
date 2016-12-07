@@ -51,5 +51,22 @@
         <page name='50.UnsafePointer'/>
         <page name='51.C指针内存管理'/>
         <page name='52.COpaquePointer，C convention'/>
+        <page name='53.GCD和延时调用'/>
+        <page name='54.获取对象类型'/>
+        <page name='55.自省'/>
+        <page name='56.KVO'/>
+        <page name='57.局部scope'/>
+        <page name='58.判等'/>
+        <page name='59.哈希'/>
+        <page name='60.类簇'/>
+        <page name='61.调用C动态库'/>
+        <page name='62.格式化输出'/>
+        <page name='67.delegate'/>
+        <page name='68.Associated Object'/>
+        <page name='83.Json'/>
+        <page name='属性访问'/>
+        <page name='闭包歧义'/>
+        <page name='泛型扩展'/>
+        <page name='尾递归'/>
     </pages>
 </playground>
